@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dog Favourite</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/297f9ba159.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <h1>the Dog Favourite</h1>
+    <span id="error"></span>
+    <section class="loadDog--Container">
+
+        <article class="loadDog--card">
+            <img id="img1" class="loadDog--Image" alt="Foto de un Perro">
+            <button class="button--save"><i class="fa-solid fa-heart-circle-plus"></i></button>
+        </article>
+     
+        <article class="loadDog--card">
+            <img id="img2" class="loadDog--Image" alt="Foto de un Perro">
+            <button class="button--save"><i class="fa-solid fa-heart-circle-plus"></i></button>
+        </article>
+
+        <article class="loadDog--card">
+            <img id="img3" class="loadDog--Image" alt="Foto de un Perro">
+            <button class="button--save"><i class="fa-solid fa-heart-circle-plus"></i></button>
+        </article>
+        <button class="button--reload" onclick="loadRandomDogs()">Mas Perritos </button>
+        
+
+    </section>
+    </main>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

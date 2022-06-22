@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.loadDog--Container{
+    background-color: orange;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+   
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity;
+}
+
+.loadDog--card{
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 190px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 5px 0 ;
+    
+    background-color: blue;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(89,73,30,0.16);
+}
+
+.loadDog--Image{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    position: relative;
+
+
+}
+
+.button--save{
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    
+    font-size: 2.5rem;
+    top: 10px;
+    left: calc(50% - 90px);
+    
+        
+}
